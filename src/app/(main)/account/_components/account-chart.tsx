@@ -60,7 +60,7 @@ export function AccountChart({ transactions }: { transactions: any[] }) {
 
     // Convert to array and sort by date
     return Object.values(grouped).sort(
-      (a, b) => new Date(a.date) - new Date(b.date)
+      (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
     );
   }, [transactions, dateRange]);
 
