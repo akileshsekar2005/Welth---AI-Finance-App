@@ -29,7 +29,7 @@ const DATE_RANGES = {
   ALL: { label: "All Time", days: null },
 };
 
-export function AccountChart({ transactions }) {
+export function AccountChart({ transactions }: { transactions: any[] }) {
   const [dateRange, setDateRange] = useState("1M");
 
   const filteredData = useMemo(() => {
