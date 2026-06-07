@@ -30,7 +30,7 @@ const DATE_RANGES = {
 };
 
 export function AccountChart({ transactions }: { transactions: any[] }) {
-  const [dateRange, setDateRange] = useState("1M");
+  const [dateRange, setDateRange] = useState<keyof typeof DATE_RANGES>("1M");
 
   const filteredData = useMemo(() => {
     const range = DATE_RANGES[dateRange];
