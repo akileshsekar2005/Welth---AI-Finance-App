@@ -354,10 +354,10 @@ Built with **Resend** + **React Email**:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-*Built with ❤️ by Akilesh S*
+*Built by Akilesh S*
