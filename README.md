@@ -356,7 +356,7 @@ Built with **Resend** + **React Email**:
 
 ## 📄 License
 
-This project is for portfolio and educational purposes.
+This project is licensed under the MIT License.
 
 ---
 
