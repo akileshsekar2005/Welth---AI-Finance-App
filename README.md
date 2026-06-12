@@ -4,7 +4,7 @@
 
 > A production-ready, full-stack AI finance web application built with Next.js 16, Supabase, Prisma, Clerk, and Google Gemini AI.
 
-🔗 **Live Demo:** [welth-ai-finance-app-lfkt.vercel.app](https://welth-ai-finance-app-lfkt.vercel.app)
+ **Live Demo:** [Click Here To Try The APP](https://welth-ai-finance-app-lfkt.vercel.app)
 
 ---
 
