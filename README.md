@@ -1,4 +1,4 @@
-# Welth - AI-Powered Finance Platform
+# WELTH - AI-POWERED FINANCE PLATFORM
 
 ![Welth Banner](public/banner.jpeg)
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -22,28 +22,28 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 Welth is a comprehensive AI-powered personal finance management platform that helps users track expenses, manage multiple bank accounts, scan receipts using AI, set budgets, and receive automated financial insights via email.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔐 **Authentication** — Secure sign-in/sign-up with Clerk
-- 🏦 **Multi-Account Management** — Create and manage multiple bank accounts (Current/Savings)
-- 💸 **Transaction Tracking** — Add, edit, delete income and expense transactions
-- 🤖 **AI Receipt Scanner** — Upload receipt images and auto-extract transaction details using Google Gemini AI
-- 📊 **Dashboard Analytics** — Visual charts showing spending patterns and expense breakdown by category
-- 💰 **Budget Management** — Set monthly budgets with real-time progress tracking
-- 🔄 **Recurring Transactions** — Set up daily, weekly, monthly, or yearly recurring transactions
-- 📧 **Email Alerts** — Automated budget alerts (at 80% usage) and monthly financial reports via Resend
-- 🛡️ **Security** — Arcjet rate limiting and bot protection on all API routes
-- ⚙️ **Background Jobs** — Inngest-powered cron jobs for recurring transaction processing and report generation
+-  **Authentication** — Secure sign-in/sign-up with Clerk
+-  **Multi-Account Management** — Create and manage multiple bank accounts (Current/Savings)
+-  **Transaction Tracking** — Add, edit, delete income and expense transactions
+-  **AI Receipt Scanner** — Upload receipt images and auto-extract transaction details using Google Gemini AI
+-  **Dashboard Analytics** — Visual charts showing spending patterns and expense breakdown by category
+-  **Budget Management** — Set monthly budgets with real-time progress tracking
+-  **Recurring Transactions** — Set up daily, weekly, monthly, or yearly recurring transactions
+-  **Email Alerts** — Automated budget alerts (at 80% usage) and monthly financial reports via Resend
+-  **Security** — Arcjet rate limiting and bot protection on all API routes
+-  **Background Jobs** — Inngest-powered cron jobs for recurring transaction processing and report generation
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Technology |
 |----------|-----------|
@@ -61,7 +61,7 @@ Welth is a comprehensive AI-powered personal finance management platform that he
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 finance-app/
@@ -97,7 +97,7 @@ finance-app/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -149,7 +149,7 @@ Open [http://localhost:8288](http://localhost:8288) to access the Inngest dashbo
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 Create a `.env` file in the root directory with the following variables:
 
@@ -192,7 +192,7 @@ INNGEST_DEV=1
 
 ---
 
-## 🗄️ Database Setup
+##  Database Setup
 
 This project uses **Supabase** (PostgreSQL) with **Prisma ORM**.
 
@@ -252,7 +252,7 @@ npx prisma generate
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
 This app is deployed on **Vercel** with automatic CI/CD from GitHub.
 
@@ -288,7 +288,7 @@ Go to **Project Settings** → **Environment Variables** and add all variables f
 
 ---
 
-## 📱 Screenshots
+##  Screenshots
 
 ### Landing Page
 - Hero section with gradient title and AI banner
@@ -316,7 +316,7 @@ Go to **Project Settings** → **Environment Variables** and add all variables f
 
 ---
 
-## 🔒 Security Features
+##  Security Features
 
 - **Arcjet** — Rate limiting (10 requests/minute per user) and bot detection
 - **Clerk** — JWT-based authentication with session management
@@ -326,7 +326,7 @@ Go to **Project Settings** → **Environment Variables** and add all variables f
 
 ---
 
-## ⚙️ Background Jobs (Inngest)
+##  Background Jobs (Inngest)
 
 | Function | Schedule | Description |
 |----------|----------|-------------|
@@ -337,7 +337,7 @@ Go to **Project Settings** → **Environment Variables** and add all variables f
 
 ---
 
-## 📧 Email Features
+##  Email Features
 
 Built with **Resend** + **React Email**:
 
@@ -346,12 +346,11 @@ Built with **Resend** + **React Email**:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Akilesh S**
 - GitHub: [@akileshsekar2005](https://github.com/akileshsekar2005)
 - Email: akileshsekar2005@gmail.com
-- LinkedIn: [Akilesh S](https://linkedin.com/in/akilesh-s)
 
 ---
 
